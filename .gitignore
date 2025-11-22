@@ -1,0 +1,66 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# Environment files
+*.env
+*.ini
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# -----------------------
+# Project specific
+# -----------------------
+# Ignore Mediapipe build cache
+mediapipe/modules/
+
+# TensorFlow logs and training output
+logs/
+checkpoints/
+saved_model/
+*.h5
+*.pb
+
+# Models
+models/
+*.tflite
+
+# Dataset folders (if large)
+dataset/
+data/
+train/
+test/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# -----------------------
+# OS generated files
+# -----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------
+# VS Code
+# -----------------------
+.vscode/
